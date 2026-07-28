@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.Python
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment files - CRITICAL: Never commit tokens/secrets
+.env
+.env.local
+.env.*.local
+app/.env
+
+# Database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+app/logs/
+
+# Download caches
+app/downloads/*
+media/downloads/*
+media/audio/downloads/*
+!**/downloads/.gitkeep
+
+# Cookies - contain authentication data
+video_downloader/cookies/*.txt
+!video_downloader/cookies/README_COOKIES.txt
+
+# Backups
+backups/
+app/backups/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+/tmp/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Disabled modules (для чистоты репозитория)
+disabled_modules/

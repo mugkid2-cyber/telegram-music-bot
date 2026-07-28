@@ -1,0 +1,4 @@
+# Добавьте эти строки в requirements.txt основного проекта
+# (или установите отдельно: pip install -r video_downloader/requirements.txt)
+yt-dlp>=2024.12.0
+# aiogram>=3.0 — предполагается, что уже установлен в основном проекте
