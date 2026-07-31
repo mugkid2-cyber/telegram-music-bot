@@ -72,3 +72,6 @@ desktop.ini
 
 # Disabled modules (для чистоты репозитория)
 disabled_modules/
+
+# Deployment guide (not to be committed)
+DEPLOYMENT_GUIDE.md
