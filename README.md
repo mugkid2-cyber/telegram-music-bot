@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Telegram Music Bot - Деплой на Render
 
 Telegram бот для скачивания и воспроизведения музыки с поддержкой YouTube, VK, и других платформ.
@@ -234,3 +235,6 @@ git push
 ## 📄 Лицензия
 
 MIT License
+=======
+# telegram-music-bot
+>>>>>>> 2babfa3e5e1a3c6f2548e7d0a8a4ebca3920d4a4
